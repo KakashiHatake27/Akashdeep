@@ -67,3 +67,18 @@
     background-color: red;
     border-color: red ;
 }
+
+
+#portfolio{
+    color: bisque;
+    height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .Face .intro h1 {
+        font-weight: bolder;
+        font-size: x-large;
+        text-shadow: 2px 2px black;
+    
+    }
+}
