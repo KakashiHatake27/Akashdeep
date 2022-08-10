@@ -1,9 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.navbar-brand{
+    padding-left: 20px;
 }
 
-body {
-    background: lightblue;
-    text-align: center;
+.navbar{
+    background: transparent !important;
+}
+
+.Face{
+    background-color: aqua;
+    background-image: url('img/Cover-main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
 }
