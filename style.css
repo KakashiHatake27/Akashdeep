@@ -8,5 +8,8 @@
 
 .Face{
     background-color: aqua;
+    background-image: url('img/Cover-main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height:100vh;
 }
