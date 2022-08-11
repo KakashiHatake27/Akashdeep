@@ -1,3 +1,4 @@
+
 html {
     scrollbar-face-color: #646464;
     scrollbar-base-color: #646464;
@@ -7,6 +8,7 @@ html {
     scrollbar-arrow-color: #000;
     scrollbar-shadow-color: #646464;
     scrollbar-darkshadow-color: #646464;
+    /* background-color: #000; */
   }
   
   ::-webkit-scrollbar { width: 8px; height: 3px;}
@@ -19,6 +21,10 @@ html {
 
 .navbar-brand {
     padding-left: 20px;
+}
+
+.navbar-toggler{
+    margin-top: 5px;
 }
 
 .navbar {
@@ -130,6 +136,19 @@ html {
     text-align: center;
     padding-top: 100px;
 }
+
+
+footer{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    background-color: #000;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* height: auto; */
+}
+
+
 
 @media screen and (max-width: 767px) {
     .Face .intro h1 {
