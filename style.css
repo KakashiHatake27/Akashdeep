@@ -11,6 +11,7 @@
     background-image: url('img/Cover-main.png');
     background-repeat: no-repeat;
     background-size: cover;
+    /* height: 100vh; */
     min-height: 100vh;
 
 }
@@ -80,5 +81,9 @@
         font-size: x-large;
         text-shadow: 2px 2px black;
     
+    }
+
+    .Face{
+        height:100vh;
     }
 }
