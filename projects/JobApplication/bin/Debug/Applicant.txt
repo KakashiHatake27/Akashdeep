@@ -1,0 +1,6 @@
+
+Student name: John
+Student Surname: Marston
+Email: johnm@gmail.com
+Education: PhD
+Campus: Durban
