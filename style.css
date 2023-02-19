@@ -65,7 +65,7 @@ html {
     color: red;
 }
 
-.Face .intro .projects-button{
+.Face .intro .projects-button .experience-button{
     display: block;
     text-align: center;
 }
@@ -96,39 +96,93 @@ html {
 }
 
 
-#portfolio{
-    background-color: rgb(38, 38, 38);
-    height: 100vh;
-    color:white;
-    border: 1px solid white;
+.experience-button{
+    margin-top: 10px;
 }
 
-#portfolio p{
-    font-size: 52pxs ;
-    text-align: center;
-    padding-top: 100px;
+.btn-experience{
+    padding:10px;
+    text-shadow: 2px 2px black;
+    background-color: transparent;
+    font-size: medium;
+    outline: none;
+    border: 1px solid white;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
 }
+
+.btn-experience a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.btn-experience:hover{
+    background-color: red;
+    border-color: red ;
+}
+
+
+#portfolio{
+    /* background-color: rgb(38, 38, 38); */
+    background-color: #000;
+    height: 100vh;
+    color:white;
+    /* border: 1px solid white; */
+}
+
+
+
+.projects{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.card{
+margin:20px;
+}
+
+/* Contact Section */
 
 
 #contact{
+    padding-top: 20px;
+    /* background-color: #000; */
     background-color: rgb(38, 38, 38);
-    height: 100vh;
+    height: 30vh;
     color:white;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    position:relative;
 }
 
 #contact p{
-    font-size: 52pxs ;
+    font-size: 32px ;
     text-align: center;
-    padding-top: 100px;
+    font-weight: bolder;
+    /* background-color: rgb(38, 38, 38); */
+    /* background-color: #000; */
+
+    /* padding-top: 100px; */
 }
 
+.phone,.email{
+text-align: center;
+padding-top: 20px;
+}
 
 #about{
-    background-color: rgb(38, 38, 38);
+    /* background-color: rgb(38, 38, 38); */
+    
+    background-color: #000;
     height: 100vh;
     color:white;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 #about p{
@@ -136,6 +190,8 @@ html {
     text-align: center;
     padding-top: 100px;
 }
+
+
 
 
 footer{
@@ -151,14 +207,5 @@ footer{
 
 
 @media screen and (max-width: 767px) {
-    .Face .intro h1 {
-        font-weight: bolder;
-        font-size: x-large;
-        text-shadow: 2px 2px black;
-    
-    }
-
-    .Face{
-        height:100vh;
-    }
+ 
 }

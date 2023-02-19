@@ -1,0 +1,16 @@
+C:\Users\kakas\source\repos\JobApplication\bin\Debug\JobApplication.exe.config
+C:\Users\kakas\source\repos\JobApplication\bin\Debug\JobApplication.exe
+C:\Users\kakas\source\repos\JobApplication\bin\Debug\JobApplication.pdb
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\MainWindow.g.cs
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\App.g.cs
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication_MarkupCompile.cache
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication_MarkupCompile.lref
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\MainWindow.baml
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.g.resources
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.exe
+C:\Users\kakas\source\repos\JobApplication\obj\Debug\JobApplication.pdb
