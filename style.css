@@ -152,10 +152,11 @@ margin:20px;
 
 
 #contact{
+    height: 100vh;
     padding-top: 20px;
     /* background-color: #000; */
-    background-color: rgb(38, 38, 38);
-    height: 30vh;
+    background-color: black; 
+    /* height: 30vh; */
     color:white;
     /* border: 1px solid white; */
     position:relative;
@@ -165,15 +166,81 @@ margin:20px;
     font-size: 32px ;
     text-align: center;
     font-weight: bolder;
+
     /* background-color: rgb(38, 38, 38); */
     /* background-color: #000; */
 
     /* padding-top: 100px; */
 }
 
-.phone,.email{
+/* .phone,.email{
 text-align: center;
 padding-top: 20px;
+} */
+
+.contact-box {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.contact-title {
+    font-size: 24px;
+    color: black;
+}
+
+.contact-form {
+    margin: 35px;
+}
+
+.name {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.email {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.message {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn-send {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
 }
 
 #about{
