@@ -1,4 +1,3 @@
-
 html {
     scrollbar-face-color: #646464;
     scrollbar-base-color: #646464;
@@ -9,21 +8,44 @@ html {
     scrollbar-shadow-color: #646464;
     scrollbar-darkshadow-color: #646464;
     /* background-color: #000; */
-  }
-  
-  ::-webkit-scrollbar { width: 8px; height: 3px;}
-  ::-webkit-scrollbar-button {  background-color: #666; }
-  ::-webkit-scrollbar-track {  background-color: #646464;}
-  ::-webkit-scrollbar-track-piece { background-color: #000;}
-  ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
-  ::-webkit-scrollbar-corner { background-color: #646464;}
-  ::-webkit-resizer { background-color: #666;}
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #666;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #646464;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #666;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #646464;
+}
+
+::-webkit-resizer {
+    background-color: #666;
+}
 
 .navbar-brand {
     padding-left: 20px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     margin-top: 5px;
 }
 
@@ -65,14 +87,14 @@ html {
     color: red;
 }
 
-.Face .intro .projects-button .experience-button{
+.Face .intro .projects-button .experience-button {
     display: block;
     text-align: center;
 }
 
-.btn-projects{
-    
-    padding:10px;
+.btn-projects {
+
+    padding: 10px;
     text-shadow: 2px 2px black;
     background-color: transparent;
     font-size: medium;
@@ -83,25 +105,25 @@ html {
     cursor: pointer;
 }
 
-.btn-projects a{
+.btn-projects a {
     font-size: 17px;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px black;
 }
 
-.btn-projects:hover{
+.btn-projects:hover {
     background-color: red;
-    border-color: red ;
+    border-color: red;
 }
 
 
-.experience-button{
+.experience-button {
     margin-top: 10px;
 }
 
-.btn-experience{
-    padding:10px;
+.btn-experience {
+    padding: 10px;
     text-shadow: 2px 2px black;
     background-color: transparent;
     font-size: medium;
@@ -112,57 +134,57 @@ html {
     cursor: pointer;
 }
 
-.btn-experience a{
+.btn-experience a {
     font-size: 17px;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px black;
 }
 
-.btn-experience:hover{
+.btn-experience:hover {
     background-color: red;
-    border-color: red ;
+    border-color: red;
 }
 
 
-#portfolio{
+#portfolio {
     /* background-color: rgb(38, 38, 38); */
     background-color: #000;
     height: 100vh;
-    color:white;
+    color: white;
     /* border: 1px solid white; */
 }
 
 
 
-.projects{
+.projects {
     display: inline-flex;
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
     flex-direction: row;
-    
+
 }
 
-.card{
-margin:20px;
+.card {
+    margin: 20px;
 }
 
 /* Contact Section */
 
 
-#contact{
+#contact {
     padding-top: 20px;
     /* background-color: #000; */
     background-color: rgb(38, 38, 38);
-    height: 30vh;
-    color:white;
+    height: 70vh;
+    color: white;
     /* border: 1px solid white; */
-    position:relative;
+    position: relative;
 }
 
-#contact p{
-    font-size: 32px ;
+#contact p {
+    font-size: 32px;
     text-align: center;
     font-weight: bolder;
     /* background-color: rgb(38, 38, 38); */
@@ -171,22 +193,23 @@ margin:20px;
     /* padding-top: 100px; */
 }
 
-.phone,.email{
-text-align: center;
-padding-top: 20px;
+.phone,
+.email {
+    text-align: center;
+    padding-top: 20px;
 }
 
-#about{
+#about {
     /* background-color: rgb(38, 38, 38); */
-    
+
     background-color: #000;
     height: 100vh;
-    color:white;
+    color: white;
     /* border: 1px solid white; */
 }
 
-#about p{
-    font-size: 52pxs ;
+#about p {
+    font-size: 52pxs;
     text-align: center;
     padding-top: 100px;
 }
@@ -194,9 +217,9 @@ padding-top: 20px;
 
 
 
-footer{
-    padding-top:20px ;
-    padding-bottom:20px ;
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #000;
     align-items: center;
     text-align: center;
@@ -206,6 +229,4 @@ footer{
 
 
 
-@media screen and (max-width: 767px) {
- 
-}
+@media screen and (max-width: 767px) {}

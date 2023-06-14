@@ -2,110 +2,128 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="black">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Akashdeep - Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Akashdeep - Home</title>
+    <script src="index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("DZR6tbj__rKBMjFIe");
+        })();
+    </script>
 </head>
 
 <body>
-  <div class="Face">
-    <nav class="navbar navbar-expand-lg bg-light ">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">AKASHDEEP SINGH</a>
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="Face">
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">AKASHDEEP SINGH</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="collapse navbar-collapse justify-content-center padding-top-20" id="navbarNav">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-              <a class="nav-link active bg-light text-dark" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#portfolio">Projects</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link text-light" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#gallery">Gallery</a>
-            </li> -->
-          </ul>
+                <div class="collapse navbar-collapse justify-content-center padding-top-20" id="navbarNav">
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link active bg-light text-dark" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#portfolio">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="home">
+            <div class="intro text-light">
+                <h1><span>WELCOME</span> TO MY WEBPAGE</h1>
+                <h1>I AM <span>AKASHDEEP SINGH</span></h1>
+                </br>
+                <div class="projects-button">
+                    <button class="btn-projects"><a href="#portfolio">Checkout my projects >> <i class="bi bi-arrow-down"></i></a></button>
+                </div>
+                <div class="experience-button">
+                    <button class="btn-experience"><a href="#contact">Contact >> <i class="bi bi-arrow-down"></i></a></button>
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
-    <div class="home">
-      <div class="intro text-light">
-        <h1><span>WELCOME</span> TO MY WEBPAGE</h1>
-        <h1>I AM <span>AKASHDEEP SINGH</span></h1>
-        </br>
-        <div class="projects-button">
-          <button class="btn-projects"><a href="#portfolio">Checkout my projects >> <i
-                class="bi bi-arrow-down"></i></a></button>
-        </div>
-        <div class="experience-button">
-          <button class="btn-experience"><a href="#contact">Contact >> <i
-                class="bi bi-arrow-down"></i></a></button>
-        </div>
-      </div>
     </div>
-  </div>
-  <Section id="portfolio">
+    <Section id="portfolio">
 
-    <!-- <p> PORTFOLIO SECTION UNDER CONSTRUCTION</p> -->
-    <div class="projects">
-      <div class="card" style="width: 18rem;">
-        <img src="img/BudgetPlanner.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-dark">Budget Planner</h5>
-          <p class="card-text text-dark">A Finance tracking application</p>
-          <a href="https://github.com/KakashiHatake27/ST10084407-POE-FINAL" class="btn btn-primary">View project</a>
-        </div>
-      </div>
+        <!-- <p> PORTFOLIO SECTION UNDER CONSTRUCTION</p> -->
+        <div class="projects">
+            <div class="card" style="width: 18rem;">
+                <img src="img/BudgetPlanner.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Budget Planner</h5>
+                    <p class="card-text text-dark">A Finance tracking application</p>
+                    <a href="https://github.com/KakashiHatake27/ST10084407-POE-FINAL" class="btn btn-primary">View project</a>
+                </div>
+            </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="img/TickNote.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-dark">TickNote</h5>
-          <p class="card-text text-dark">A note taking application with reminders</p>
-          <a href="https://github.com/KakashiHatake27/TickNoteP2" class="btn btn-primary">View project</a>
-        </div>
-      </div>  
-      <!-- <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
+                <img src="img/TickNote.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">TickNote</h5>
+                    <p class="card-text text-dark">A note taking application with reminders</p>
+                    <a href="https://github.com/KakashiHatake27/TickNoteP2" class="btn btn-primary">View project</a>
+                </div>
+            </div>
+            <!-- <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title text-dark">Note:</h5>
           <p class="card-text text-dark">More coming soon...</p>
 
         </div> -->
-      </div>
-  </Section>
+        </div>
+    </Section>
 
-  <Section id="contact">
-    <p> MY CONTACT DETAILS</p>
-    <div class="contact-details">
-      <div class="phone">&#128222; +1 (437) 557 7445</div>
-    <div class="email">Email: <a href="mailto:singh.akshdeep2710@gmail.com">singh.akshdeep2710@gmail.com</a></div>
-    </div>
-  </Section>
+    <Section id="contact">
+        <p> MY CONTACT DETAILS</p>
+        <div class="container border mt-6 bg-dark">
+            <div class="row">
+                <div class="col-md-3 p-5 bg-gradient text-white">
+                    <h3>Hi there!</h3>
+                    <h6>
+                        singh.akshdeep2710@gmail.com
+                    </h6>
+                </div>
+                <div class="col-md-6 border-left py-3">
+                    <h1>Contact form</h1>
+                    <div class="form-group">
+                        <h5 for="name">Name</h5>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" />
+                    </div>
+                    <div class="form-group">
+                        <h5 for="email">Email</h5>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" />
+                    </div>
+                    <div class="form-group">
+                        <h5 for="message">Message</h5>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-primary mt-3" onclick="sendMail()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </Section>
 
- 
-  <footer>
-    <p>MADE BY AKASHDEEP SINGH &copy;</p>
-  </footer>
 
-  <!-- <div id="portfolio"></div> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
+    <footer>
+        <p>MADE BY AKASHDEEP SINGH &copy;</p>
+    </footer>
+
+    <!-- <div id="portfolio"></div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 
