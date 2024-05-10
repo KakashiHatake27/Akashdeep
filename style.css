@@ -150,7 +150,7 @@ html {
 #portfolio {
     /* background-color: rgb(38, 38, 38); */
     background-color: #000;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     /* border: 1px solid white; */
 }
@@ -168,6 +168,10 @@ html {
 
 .card {
     margin: 20px;
+}
+
+.card img{
+    height: 150px;
 }
 
 /* Contact Section */
