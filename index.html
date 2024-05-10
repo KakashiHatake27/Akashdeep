@@ -91,6 +91,26 @@
                 </div>
             </div>
             
+            <div class="card" style="width: 18rem;">
+                <img src="img/dancingModel.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Dancing Model</h5>
+                    <p class="card-text text-dark">A 3d model of me dancing using react</p>
+                    <a href="https://github.com/KakashiHatake27/Dancing-model" class="btn btn-primary">View project</a>
+                    <a href="https://main--imaginative-frangollo-61c3ed.netlify.app/" class="btn btn-primary">Visit site</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="img/hapsfurniture.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Ecommerce  Site</h5>
+                    <p class="card-text text-dark">An ecommerce site that uses Sanity, NextJS and Stripe</p>
+                    <!-- <a href="https://github.com/KakashiHatake27/Dancing-model" class="btn btn-primary">Learn More</a> -->
+                    <a href="https://www.hapsfurniture.com/" class="btn btn-primary">Visit site</a>
+                </div>
+            </div>
+            
             <!-- <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title text-dark">Note:</h5>
@@ -101,36 +121,25 @@
     </Section>
 
     <Section id="contact">
-        <p> MY CONTACT DETAILS</p>
-        <div class="container border mt-6 bg-dark">
-            <div class="row">
-                <div class="col-md-5 p-5 bg-gradient text-white">
-                    <h3>Hi there!</h3>
-                    <h5>
-                        <br>
-                        Want to ask something? <br>
-                        <br>
-                        <a href="mailto:singh.akshdeep2710@gmail.com" class="fa fa-envelope">singh.akshdeep2710@gmail.com</a><br>
-                        <!-- <h4 class="fa fa-envelope"> singh.akshdeep2710@gmail.com</h4> -->
-                    </h5>
+        <!-- <p> MY CONTACT DETAILS</p> -->
+        <div class="contact-container">
+        
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                <hr>
                 </div>
-                <div class="col-md-6 border-left py-3">
-                    <h1>Contact form</h1>
-                    <div class="form-group">
-                        <h5 for="name">Name</h5>
-                        <input type="text" class="form-control" id="name" placeholder="Enter name" />
-                    </div>
-                    <div class="form-group">
-                        <h5 for="email">Email</h5>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" />
-                    </div>
-                    <div class="form-group">
-                        <h5 for="message">Message</h5>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
-                    <button class="btn btn-primary mt-3" onclick="sendMail()">Submit</button>
-                </div>
+                <input type="hidden" name="access_key" value="f5f6765b-e6ef-4228-8344-a483759bb4f2">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required />
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required />
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required ></textarea>
+                <button type="submit">Submit <img src="/img/arrow_icon.png" alt=""></button>
+            </form>
+    
+            <div class="contact-right">
+                <img src="/img/right_img.png" alt="">
             </div>
+    
         </div>
     </Section>
 
